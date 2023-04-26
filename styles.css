@@ -1,0 +1,71 @@
+/* Estilos Universales*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Importar fuente de texto: Inter*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+  body{
+    width: 393px;
+    height: 852px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 1px solid black
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* PANTALLA 1: INICIO */
+
+/* Estilos de la cabecera*/
+
+header{
+    width: 100%;
+    min-width: 393px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px 0px 12px;
+}
+
+.header__menu .fa-bars{
+    color: #027000;
+    font-size: 22px;
+}
+
+.header__logo p{
+    color: #FAF014;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+}
+
+.header__logo span{
+    color: #027000;
+}
+
+.header__navbar > ul {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    column-gap: 16px;
+}
+.header__navbar ul li a{
+    color: #027000;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.fa-cart-shopping{
+    color: #027000;
+    font-size: 20px;
+}
