@@ -276,3 +276,68 @@ header{
     font-weight: 700;
     color:#027000;
 }
+
+/* PANTALLA 3: SIGN UP */
+
+/* Estilos del main*/
+
+.main--registro{
+    width: 100%;
+    min-width: 393px;
+    height: auto;
+    padding: 27px 18px 17px 18px;
+}
+
+.main--registro > h1{
+    font-size: 40px;
+    line-height: 48.41px;
+    width: 168px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    font-style: italic;
+    color: #027000;
+}
+
+.register{
+    margin-bottom: 0;
+    height: 39px;
+    width: 331px;
+    font-size: 25px;
+}
+
+.registro--form{
+    display: grid;
+}
+
+.registro--form div{
+    height: 66px;
+    background-color: #027000 ;
+    border-radius: 15px;
+    padding: 14px 18px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registro--form div label{
+    align-self: center;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: white;
+}
+.registro--form div input{
+    width: 203px;
+    border-radius: 15px;
+    border: 0;
+    padding-left: 10px;
+}
+
+.registro--form div:nth-child(7) label{
+    width: 89px;
+}
+
+.registro--form div:nth-child(7){
+    margin-bottom: 40px;
+}
+

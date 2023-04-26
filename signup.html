@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/33e3caf9b6.js" crossorigin="anonymous"></script>
+    <title>Little Lemon Sign up</title>
+</head>
+<body>
+    <header>
+        <div class="header__menu">
+            <i class="fa-solid fa-backward"> <span>Back</span></i>
+        </div>
+
+        <div class="header__logo">
+            <p>Little <span>Lemon</span></p>
+
+        </div>
+
+        <nav class="header__navbar">
+            <ul>
+                <li> <a href="./login.html" target="_blank"> Login</a> </li>
+                <li> <i class="fa-solid fa-cart-shopping"></i> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main--registro">
+        <h1>Sign up</h1>
+        <form action="./login.html" class="registro--form">
+            <div>
+                <label for="name"> First Name </label>
+                <input type="text" id="name" name="name" minlength="2" required>
+            </div>
+            <div>
+                <label for="lastname"> Last name </label>
+                <input type="text" id="lastname" name="lastname" minlength="2" required>
+            </div>
+            <div>
+                <label for="user"> Username </label>
+                <input type="text" id="user" name="user" required>
+            </div>
+            <div>
+                <label for="phone"> Cellphone </label>
+                <input type="number" id="phone" name="phone" minlength="9" required>
+            </div>
+            <div>
+                <label for="email"> Email </label>
+                <input type="email" id="email" name="email"  required>
+            </div>
+            <div>
+                <label for="pass"> Password </label>
+                <input type="password" id="pass" name="password" required>
+            </div>
+            <div>
+                <label for="pass"> Confirm Password </label>
+                <input type="password" id="pass" name="password" required>
+            </div>
+            <input type="submit" value="Submit" class="button--form register">
+        </form>
+    </main>
+    
+</body>
+</html>
