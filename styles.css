@@ -561,3 +561,38 @@ section .specialone{
     height: 100%;
     object-fit: contain;
 }
+
+/* PANTALLA 6: SUMMARY*/
+
+.main--resumen{
+    width: 100%;
+    min-width: 393px;
+    height: auto;
+    padding: 110px 31px 23px 31px;
+}
+
+.main--resumen h1{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    line-height: 36.31px;
+    margin-bottom: 69px; 
+    color: #027000;
+}
+.main--resumen p{
+    width: 330px;
+    height: 289px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30.26px;
+    margin-bottom: 242px; 
+    color: #027000;
+}
+
+.main--resumen p span{
+    color: #FAF014;
+    background-color: #027000;
+}
