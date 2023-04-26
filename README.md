@@ -9,3 +9,5 @@ Mira la demo de cada pantalla:
 📌Pantalla 3- Login: [Demo](https://raulsr92.github.io/CodiGO-tarea-Sesion6-LittleLemon/signup.html)
 
 📌Pantalla 4- Table-Reservation: [Demo](https://raulsr92.github.io/CodiGO-tarea-Sesion6-LittleLemon/reservation.html)
+
+📌Pantalla 5- Checkout: [Demo](https://raulsr92.github.io/CodiGO-tarea-Sesion6-LittleLemon/checkout.html)
