@@ -33,6 +33,7 @@ header{
     height: 44px;
     display: flex;
     justify-content: space-between;
+    column-gap: 44px;
     align-items: center;
     padding: 0 12px 0px 12px;
 }
@@ -171,3 +172,21 @@ header{
     padding-left: 14px;
 }
 
+/* PANTALLA 2: LOGIN */
+
+/* Estilos de la cabecera*/
+
+.header__menu .fa-backward{
+    color: #027000;
+    font-size: 20px;
+}
+
+.header__menu .fa-backward span{
+    color: #027000;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 300;
+}
+.header__navbar ul li a{
+    display: none;
+}

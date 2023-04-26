@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/33e3caf9b6.js" crossorigin="anonymous"></script>
+    <title>Little Lemon-Login</title>
+</head>
+<body>
+    <header>
+        <div class="header__menu">
+            <i class="fa-solid fa-backward"> <span>Back</span></i>
+        </div>
+
+        <div class="header__logo">
+            <p>Little <span>Lemon</span></p>
+
+        </div>
+
+        <nav class="header__navbar">
+            <ul>
+                <li> <a href="./login.html" target="_blank"> Login</a> </li>
+                <li> <i class="fa-solid fa-cart-shopping"></i> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main--login">
+        <h1>Welcome to Little Lemon</h1>
+
+        <form action="./reserva-mejorado.html" class="login--form" target="_blank">
+            <div >
+                <label for="name"> Username </label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div >
+                <label for="pass"> Contraseña </label>
+                <input type="password" id="pass" name="password" required>
+            </div>
+
+            <input type="submit" value="Login" class="button--form" >
+
+            <p>¿Sin cuenta?, créate una <a href="./registro.html" target="_blank">aquí</a></p>
+        </form>
+
+    </main>
+    
+</body>
+</html>
