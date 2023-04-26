@@ -69,3 +69,54 @@ header{
     color: #027000;
     font-size: 20px;
 }
+
+/* Estilos del main - sección 1*/
+
+.main--home{
+    width: 100%;
+    min-width: 393px;
+    height: auto;
+}
+
+.main--home__up{
+    width: 100%;
+    min-width: 393px;
+    height: 307px;
+    padding: 55px 0px 19px 11px;
+    background-image: url(./assets/background.png);
+    background-position: center;
+    border: 0;
+}
+
+.main--home__up h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36.31px;
+    margin-bottom: 47px;
+    color: white;
+}
+
+.main--home__up p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    margin-bottom: 94px;
+    color: #FAF014;
+
+}
+
+.main--home__up a{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    display: block;
+    width: 109px;
+    height: 28px;
+    background-color: #027000;
+    margin-left: 9px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+
+/* Estilos del main - sección 2*/
