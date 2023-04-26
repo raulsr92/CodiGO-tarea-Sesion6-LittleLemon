@@ -145,3 +145,29 @@ header{
     font-weight: 400;
     line-height: 24.2px;
 }
+
+/* Estilos del main - sección 3*/
+
+.main--home__end{
+    width: 100%;
+    min-width: 393px;
+    height: 413px;
+    border: 1px solid black;
+    padding: 21px 18px 15px 18px;
+    display: grid;
+    grid-template-rows: repeat(3, 114px);
+    row-gap: 17.5px;
+}
+.food--description{
+    display: flex;
+    border: 1px solid black;
+}
+
+.food--description p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    align-self: center;
+    padding-left: 14px;
+}
+
