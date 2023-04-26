@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/33e3caf9b6.js" crossorigin="anonymous"></script>
+    <title>Little Lemon - Table Reservation</title>
+</head>
+<body>
+    <header>
+        <div class="header__menu">
+            <i class="fa-solid fa-backward"> <span>Back</span></i>
+        </div>
+
+        <div class="header__logo">
+            <p>Little <span>Lemon</span></p>
+
+        </div>
+
+        <nav class="header__navbar">
+            <ul>
+                <li> <a href="./login.html" target="_blank" class="user--name"> User</a> </li>
+                <li> <i class="fa-solid fa-cart-shopping"></i> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main--reserva2">
+        <form action="./pagos.html" target="_blank" class="reserva2--form">
+            <section class="reserva2--form__tables">
+                <h3> Book a Table</h3>
+
+                <div class="tables--distribution">
+                    <label class="table1" for="table1">T1</label>
+                    <input  class="table2"  type="radio" id="table1" name="tables" value="table1" required>
+
+                    <label  class="table3"  for="table2">T2</label>
+                    <input  class="table4"  type="radio" id="table2" name="tables" value="table2" required>
+
+                    <label  class="table5"  for="table3">T3</label>
+                    <input  class="table6"  type="radio" id="table3" name="tables" value="table3" required>
+
+                    <label  class="table7" for="table4">T4</label>
+                    <input  class="table8"  type="radio" id="table4" name="tables" value="table4" required>
+                </div>
+            </section>
+            
+            <section class="reserva--form">
+                <label for="date" class="item1" > Select a Date</label>
+                <input class="item2 specialone" type="date" id="date" name="date" required>
+
+                <label class="item3" for="food"> Select a Dinner </label>
+                <select class="item4 specialone" name="food" id="food" required>
+                    <option value="" selected>--Elija una opción--</option>
+                    <option value="opcion1">Entrada 1 / Fondo 1 / Postre 1</option>
+                    <option value="opcion2">Entrada 2 / Fondo 2 / Postre 2</option>
+                    <option value="opcion3">Entrada 3 / Fondo 3 / Postre 3</option>
+                    <option value="opcion4">Entrada 4 / Fondo 4 / Postre 4</option>
+                    <option value="opcion4">Entrada 5 / Fondo 5 / Postre 5</option>
+                </select> 
+                
+                <label class="item5" for="cantidad"> (Quantity) </label>
+                <input class="item6 specialtwo" type="number" id="cantidad" name="cantidad" required>
+
+                <input type="submit" value="Checkout" class="item7 buttonpayment">
+
+            </section>
+        </form>
+    </main>
+    
+</body>
+</html>

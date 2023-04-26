@@ -341,3 +341,185 @@ header{
     margin-bottom: 40px;
 }
 
+/* PANTALLA 4: TABLE RESERVATION */
+
+/* Estilos del header*/
+
+.header__navbar ul li .user--name{
+    display: block;
+}
+
+/* Estilos del main*/
+
+.main--reserva2{
+    width: 100%;
+    min-width: 393px;
+    height: auto;
+    padding: 87px 9px 17px 9px;
+}
+
+.reserva2--form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.reserva2--form__tables h3{
+    font-size: 30px;
+    font-style: italic;
+    line-height: 36.31px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 39px;
+    color: #027000;
+}
+.tables--distribution{
+    height: 330px;
+    display: grid;
+    grid-template-columns: repeat(25, 15px);
+    grid-template-rows: repeat(22, 15px);
+    grid-template-areas: 
+    ". . . . . . . . . . . . . . . . . . . . . . . . . "
+    ". . S1 S1 S1 S1 S1 S1 S1 S1 . . . . S2 S2 S2 S2 S2 S2 S2 S2 . . ."
+    ". . S1 S1 S1 S1 S1 S1 S1 S1 . . . . S2 S2 S2 S2 S2 S2 S2 S2 . . ."
+    ". . S1 S1 S1 S1 S1 S1 S1 S1 . . . . S2 S2 S2 S2 S2 S2 S2 S2 . . ."
+    ". . S1 S1 S1 S1 S1 S1 S1 S1 . . . . S2 S2 S2 S2 S2 S2 S2 S2 . . ."
+    ". . S1 S1 S1 S1 S1 S1 S1 S1 R1 . . . S2 S2 S2 S2 S2 S2 S2 S2 R2 . ."
+    ". . S1 S1 S1 S1 S1 S1 S1 S1 . . . . S2 S2 S2 S2 S2 S2 S2 S2 . . ."
+    ". . S1 S1 S1 S1 S1 S1 S1 S1 . . . . S2 S2 S2 S2 S2 S2 S2 S2 . . ."
+    ". . S1 S1 S1 S1 S1 S1 S1 S1 . . . . S2 S2 S2 S2 S2 S2 S2 S2 . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . . . . . . "
+    ". . S3 S3 S3 S3 S3 S3 S3 S3 . . . . S4 S4 S4 S4 S4 S4 S4 S4 . . ."
+    ". . S3 S3 S3 S3 S3 S3 S3 S3 . . . . S4 S4 S4 S4 S4 S4 S4 S4 . . ."
+    ". . S3 S3 S3 S3 S3 S3 S3 S3 . . . . S4 S4 S4 S4 S4 S4 S4 S4 . . ."
+    ". . S3 S3 S3 S3 S3 S3 S3 S3 . . . . S4 S4 S4 S4 S4 S4 S4 S4 . . ."
+    ". . S3 S3 S3 S3 S3 S3 S3 S3 R3 . . . S4 S4 S4 S4 S4 S4 S4 S4 R4 . ."
+    ". . S3 S3 S3 S3 S3 S3 S3 S3 . . . . S4 S4 S4 S4 S4 S4 S4 S4 . . ."
+    ". . S3 S3 S3 S3 S3 S3 S3 S3 . . . . S4 S4 S4 S4 S4 S4 S4 S4 . . ."
+    ". . S3 S3 S3 S3 S3 S3 S3 S3 . . . . S4 S4 S4 S4 S4 S4 S4 S4 . . ."
+    ". . . . . . . . . . . . . . . . . . . . . . . . . "
+    ;
+    background-color: #FAF014;
+}
+
+.table1{
+    grid-area: S1;
+}
+.table2{
+    grid-area: R1;
+}
+.table3{
+    grid-area: S2;
+}
+.table4{
+    grid-area: R2;
+}
+.table5{
+    grid-area: S3;
+}
+.table6{
+    grid-area: R3;
+}
+.table7{
+    grid-area: S4;
+}
+.table8{
+    grid-area: R4;
+}
+
+.tables--distribution label{
+    border-radius: 50%;
+    background-color:#027000  ;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 36.31px;
+    font-weight: 700;
+    color: #FAF014;
+    padding-top: 40px;
+}
+.tables--distribution input:checked{
+    border: 6px solid black;
+}
+
+section .specialone{
+    margin-bottom: 30px;
+}
+
+
+
+.reserva--form{
+    margin-top: 21px;
+    display: grid;
+    padding: 0 16px 0 17px;
+    grid-template-columns: 132px 206px;
+    grid-template-areas: 
+     "space1 space2"
+     "space3 space4"
+     "space5 space6"
+     "space7 space7";
+     column-gap: 5px;
+     row-gap: 8px;
+}
+
+.item1{
+    grid-area: space1;
+}
+.item2{
+    grid-area: space2;
+}
+.item3{
+    grid-area: space3;
+}
+.item4{
+    grid-area: space4;
+}
+.item5{
+    grid-area: space5;
+}
+.item6{
+    grid-area: space6;
+}
+.item7{
+    grid-area: space7;
+    display: block;
+    height: 39px;
+    width: 331px;
+    text-decoration: none;
+    color: black;
+    background-color: #027000 ;
+    font-size: 25px;
+    justify-self: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    color: #FAF014;
+    text-transform: uppercase;
+}
+
+.different{
+    padding-top: 6px;
+}
+
+.item7:hover{
+    background-color: #D7BDE2  ;
+}
+
+.item1, .item3, .item5{
+    font-size: 30px;
+    font-style: italic;
+    line-height: 36.31px;
+    color: #027000;
+}
+
+.item2, .item4, .item6{
+    margin-bottom: 39px;
+    height: 33px;
+    padding-left: 5px;
+    border: 2px solid #027000 ;
+    align-self: center;
+}
